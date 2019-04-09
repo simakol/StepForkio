@@ -31,7 +31,7 @@ node_modules
 jspm_packages
 src/*.css
 src/*.js
-
+gulpfile.js
 # Optional npm cache directory
 .npm
 
