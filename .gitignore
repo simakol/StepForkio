@@ -1,4 +1,6 @@
 *.xlsx
+*.json
+src
 # Logs
 logs
 *.log
@@ -27,7 +29,6 @@ build/Release
 # Dependency directories
 node_modules
 jspm_packages
-build
 src/*.css
 src/*.js
 
