@@ -1,0 +1,12 @@
+@mixin btnColorHover {
+    color: $purple;
+    background-color: $hoverColor;
+    border: 1px solid $purple;
+    transition: .5s;
+    }
+@mixin btnColorNotHover {
+    color: #ffffff;
+    background-color: $purple;
+    border: 1px solid transparent;
+    transition: .5s;
+    }

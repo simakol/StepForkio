@@ -1,0 +1,162 @@
+.editor {
+    margin-top: 121px;
+    padding: 0 15px;
+
+    &__description {
+        opacity: 0.8;
+        color: $navColor;
+        font-family: $lato;
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 35px;
+    }
+}
+
+.section {
+    &-title {
+        &--size-l {
+            color: $editorTitleColor;
+            text-transform: uppercase;
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 42px;
+            padding-bottom: 24px;
+        }
+    }
+}
+
+
+/*GITHUB BUTTONS*/
+.gh-button {
+    display: inline-block;
+    color: $navColor;
+    padding-right: 5px;
+    cursor: pointer;
+
+    &:last-child {
+        margin-top: 20px;
+        padding-right: 0;
+    }
+}
+
+.gh-button__title,
+.gh-button__stat {
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 4px 9px;
+    border: 1px solid #d5d5d5;
+}
+
+.gh-button__title {
+    background-color: #eee;
+    background-image: linear-gradient(#fcfcfc, #eee);
+    border-radius: 4px 0 0 4px;
+}
+
+.gh-button__stat {
+    border-left: 0;
+    border-radius: 0 4px 4px 0;
+    background: white;
+}
+
+.octicon {
+    position: relative;
+    top: 3px;
+}
+
+
+
+@media(min-width: 401px) {
+    .editor {
+        margin-top: 135px;
+        padding: 0 5px;
+
+        &__description {
+            font-size: 16px;
+            padding-bottom: 38px;
+        }
+    }
+
+    .section {
+        &-title {
+            &--size-l {
+                padding-bottom: 54px;
+                font-size: 42px;
+            }
+        }
+    }
+
+
+    /*GITHUB BUTTONS*/
+    .gh-button {
+        padding-right: 7px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .gh-button__title,
+    .gh-button__stat {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+    .octicon {
+        position: relative;
+        top: 2px;
+    }
+
+}
+
+
+
+@media(min-width: 481px) {
+    .editor {
+        margin-top: 156px;
+        padding: 0 40px;
+
+        &__description {
+            font-size: 21px;
+            padding-bottom: 36px;
+        }
+    }
+
+    .section {
+        &-title {
+            &--size-l {
+                padding-bottom: 38px;
+            }
+        }
+    }
+
+    /*GITHUB BUTTONS*/
+    .gh-button {
+        padding-right: 10px;
+    }
+
+}
+
+
+@media(min-width: 993px) {
+    .editor {
+        margin-top: 129px;
+        padding: 0 120px;
+
+    }
+
+    .section {
+        &-title {
+            &--size-l {
+                font-size: 54px;
+            }
+        }
+    }
+
+    /*GITHUB BUTTONS*/
+    .gh-button {
+        padding-right: 20px;
+    }
+}
