@@ -5,7 +5,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <link rel="shortcut icon" href="build/img/logo.png" type="image/x-icon">
+   <link rel="shortcut icon" href="build/img/icon.png" type="image/x-icon">
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
@@ -14,16 +14,16 @@
 
    <title>Forkio</title>
    <style>
-   .slider2 {
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      margin-bottom: 57px;
-   }
-   .item {
-      background-color: #fff;
-   }
-   
+      .slider2 {
+         width: 100%;
+         display: flex;
+         flex-direction: row;
+         margin-bottom: 57px;
+      }
+
+      .item {
+         background-color: #fff;
+      }
    </style>
 </head>
 
@@ -32,8 +32,7 @@
       <div class="header__navbar">
          <div class="container container--navbar">
             <a class="logo">
-               <img src="build/img/logo.png" alt="logo" class="navbar__logo">
-               <img src="build/img/Logo_hover.png" alt="logo" class="navbar__logo--hover">
+               <div class="navbar__logo"></div>
                <h3 class="navbar__logo-text">ForkIO</h3>
             </a>
             <nav class="navbar__nav">
@@ -119,51 +118,56 @@
       <div class="container product__content">
          <h2 class="section-title section-title--violet">&lt;Here is what you get&gt;</h2>
          <div class="product__item-list">
-             <div class="product__item-info">
-                 <div class="product__item-img"><img src="build/img/icon1.png" alt=""></div>
-                 <div class="product__item-description">
-                     <p class="product__item-title">Creatred to Make The Web Better</p>
-                     <p class="product__item-text">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue.
-                     </p>
-                 </div>
-             </div>
-                 <div class="product__item-info">
-                     <div class="product__item-img"><img src="build/img/icon2.png" alt=""></div>
-                     <div class="product__item-description">
-                         <p class="product__item-title">Incredibly Powerful Tool</p>
-                         <p class="product__item-text">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.
-                         </p>
-                     </div>
-                 </div>
-                     <div class="product__item-info">
-                         <div class="product__item-img"><img src="build/img/icon3.png" alt=""></div>
-                         <div class="product__item-description">
-                             <p class="product__item-title">Experimental Stuff</p>
-                             <p class="product__item-text">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.
-                             </p>
-                         </div>
-                     </div>
-                         <div class="product__item-info">
-                             <div class="product__item-img"><img src="build/img/icon4.png" alt=""></div>
-                             <div class="product__item-description">
-                                 <p class="product__item-title">Creatred to Make The Web Better</p>
-                                 <p class="product__item-text">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.
-                                 </p>
-                             </div>
-             </div>
+            <div class="product__item-info">
+               <div class="product__item-img"><img src="build/img/icon1.png" alt=""></div>
+               <div class="product__item-description">
+                  <p class="product__item-title">Creatred to Make The Web Better</p>
+                  <p class="product__item-text">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet
+                     vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue.
+                  </p>
+               </div>
+            </div>
+            <div class="product__item-info">
+               <div class="product__item-img"><img src="build/img/icon2.png" alt=""></div>
+               <div class="product__item-description">
+                  <p class="product__item-title">Incredibly Powerful Tool</p>
+                  <p class="product__item-text">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio,
+                     ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.
+                  </p>
+               </div>
+            </div>
+            <div class="product__item-info">
+               <div class="product__item-img"><img src="build/img/icon3.png" alt=""></div>
+               <div class="product__item-description">
+                  <p class="product__item-title">Experimental Stuff</p>
+                  <p class="product__item-text">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio,
+                     ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.
+                  </p>
+               </div>
+            </div>
+            <div class="product__item-info">
+               <div class="product__item-img"><img src="build/img/icon4.png" alt=""></div>
+               <div class="product__item-description">
+                  <p class="product__item-title">Creatred to Make The Web Better</p>
+                  <p class="product__item-text">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio,
+                     ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.
+                  </p>
+               </div>
+            </div>
 
          </div>
          <div class="product__section-pfoto">
-             <h2 class="section-title section-title--violet-ls"><i class="fas fa-angle-left"></i>Here is what you get<i class="fas fa-angle-right"></i></h2>
-             <div class="product__pfoto"><img class="product__pfoto-img" src="build/img/fork-scren.png" alt=""></div>
+            <h2 class="section-title section-title--violet-ls"><i class="fas fa-angle-left"></i>Here is what you get<i
+                  class="fas fa-angle-right"></i></h2>
+            <div class="product__pfoto"><img class="product__pfoto-img" src="build/img/fork-scren.png" alt=""></div>
          </div>
-     </div>
+      </div>
    </section>
    <section class="slider">
       <div class="container slider-section">
          <!-- <div class="slider__modul"> -->
-             <!-- <div class="slider__arrow-left"><i class="fas fa-angle-left"></i></div> -->
-             <!-- <div class="slider__list">
+         <!-- <div class="slider__arrow-left"><i class="fas fa-angle-left"></i></div> -->
+         <!-- <div class="slider__list">
              <div class="slider__item">
                  <div class="slider__author">
                      <div class="slider__author-img"><img src="build/img/userpic.png" alt="author"></div>
@@ -197,42 +201,48 @@
                    <p class="slider__review-text"><span class="slider__span">@Pixelbuddha</span> Suspendisse sodales sem est, in scelerisque felis scelerisque in. Aenean faucibus mollis risus. Praesent sit amet erat eget eros.</p>
                    <p class="slider__review-time">2 hours ago</p>
 <!-- <!--                </div> -->
-             <!-- </div> -->
-             <!-- <div class="slider__arrow-right"><i class="fas fa-angle-right"></i></div> -->
+         <!-- </div> -->
+         <!-- <div class="slider__arrow-right"><i class="fas fa-angle-right"></i></div> -->
          <!-- </div>  -->
 
-<div class="slider2">
-   
-   <div class="item">
-      <!-- <div class="slider__arrow slider__prev"><i class="fas fa-angle-left"></i></div> -->
-      <div class="slider__author">
-         <div><img src="build/img/userpic.png" alt="author"></div>
-         <p class="slider__author-name">Steven Strange</p>
-         <p class="slider__author-position">@DoctorS</p>
-      </div>
-         <p class="slider__review-text"><span class="slider__span">@Pixelbuddha</span> Suspendisse sodales sem est, in scelerisque felis scelerisque in. Aenean faucibus mollis risus. Praesent sit amet erat eget eros.</p>
-         <p class="slider__review-time">2 hours ago</p>
-      </div>
-   <div class="item">
-         <div class="slider__author">
-               <div><img src="build/img/userpic.png" alt="author"></div>
-               <p class="slider__author-name">Lora Wong</p>
-               <p class="slider__author-position">@Designer</p>
-            </div>
-               <p class="slider__review-text"><span class="slider__span">@Pixelbuddha</span> Suspendisse sodales sem est, in scelerisque felis scelerisque in. Aenean faucibus mollis risus. Praesent sit amet erat eget eros.</p>
+         <div class="slider2">
+
+            <div class="item">
+               <!-- <div class="slider__arrow slider__prev"><i class="fas fa-angle-left"></i></div> -->
+               <div class="slider__author">
+                  <div><img src="build/img/userpic.png" alt="author"></div>
+                  <p class="slider__author-name">Steven Strange</p>
+                  <p class="slider__author-position">@DoctorS</p>
+               </div>
+               <p class="slider__review-text"><span class="slider__span">@Pixelbuddha</span> Suspendisse sodales sem
+                  est, in scelerisque felis scelerisque in. Aenean faucibus mollis risus. Praesent sit amet erat eget
+                  eros.</p>
                <p class="slider__review-time">2 hours ago</p>
-   </div>
-   <div class="item">
-         <div class="slider__author">
-               <div><img src="build/img/userpic.png" alt="author"></div>
-               <p class="slider__author-name">Baret Marduk</p>
-               <p class="slider__author-position">@MasterS</p>
             </div>
-               <p class="slider__review-text"><span class="slider__span">@Pixelbuddha</span> Suspendisse sodales sem est, in scelerisque felis scelerisque in. Aenean faucibus mollis risus. Praesent sit amet erat eget eros.</p>
+            <div class="item">
+               <div class="slider__author">
+                  <div><img src="build/img/userpic.png" alt="author"></div>
+                  <p class="slider__author-name">Lora Wong</p>
+                  <p class="slider__author-position">@Designer</p>
+               </div>
+               <p class="slider__review-text"><span class="slider__span">@Pixelbuddha</span> Suspendisse sodales sem
+                  est, in scelerisque felis scelerisque in. Aenean faucibus mollis risus. Praesent sit amet erat eget
+                  eros.</p>
                <p class="slider__review-time">2 hours ago</p>
-   </div>
-   <!-- <div class="slider__arrow slider__next"><i class="fas fa-angle-right"></i></div> -->
-</div>
+            </div>
+            <div class="item">
+               <div class="slider__author">
+                  <div><img src="build/img/userpic.png" alt="author"></div>
+                  <p class="slider__author-name">Baret Marduk</p>
+                  <p class="slider__author-position">@MasterS</p>
+               </div>
+               <p class="slider__review-text"><span class="slider__span">@Pixelbuddha</span> Suspendisse sodales sem
+                  est, in scelerisque felis scelerisque in. Aenean faucibus mollis risus. Praesent sit amet erat eget
+                  eros.</p>
+               <p class="slider__review-time">2 hours ago</p>
+            </div>
+            <!-- <div class="slider__arrow slider__next"><i class="fas fa-angle-right"></i></div> -->
+         </div>
 
 
 
@@ -241,22 +251,23 @@
          <!-- <div class="underline"></div> -->
          <!-- конец слайдера -->
          <div class="review-btn">
-             <div class="social-btn-container">
-                 <a href="" class="social-btn social-btn--github"><i class="fab fa-github"></i>GitHub</a>
-                 <p class="social-btn-container__counter">7 352 Followers</p>
-             </div>
-             <div class="social-btn-container">
-                 <a href="" class="social-btn social-btn--twitter"><i class="fab fa-twitter"></i>Twitter</a>
-                 <p class="social-btn-container__counter">136 312 Followers</p>
-             </div>
-             <div class="social-btn-container">
-                 <a href="" class="social-btn social-btn--facebook"><i class="fab fa-facebook-f"></i>Facebook</a>
-                 <p class="social-btn-container__counter">218 092 Subscribers</p>
-             </div>
-         </div> 
+            <div class="social-btn-container">
+               <a href="" class="social-btn social-btn--github"><i class="fab fa-github"></i>GitHub</a>
+               <p class="social-btn-container__counter">7 352 Followers</p>
+            </div>
+            <div class="social-btn-container">
+               <a href="" class="social-btn social-btn--twitter"><i class="fab fa-twitter"></i>Twitter</a>
+               <p class="social-btn-container__counter">136 312 Followers</p>
+            </div>
+            <div class="social-btn-container">
+               <a href="" class="social-btn social-btn--facebook"><i class="fab fa-facebook-f"></i>Facebook</a>
+               <p class="social-btn-container__counter">218 092 Subscribers</p>
+            </div>
+         </div>
 
       </div>
    </section>
+
    <section class="review">
       <div class="container align-container">
          <h2 class="section-title section-title--white">People Are Talking About Fork</h2>
@@ -378,8 +389,10 @@
       <div class="container footer__content">
          <div class="footer__logo">
             <div class="footer__logo-container">
-               <a href="" class="logo__link"><img src="build/img/logo.png" alt="" class="logo__img">Fork<span
-                     class="logo__link--selected">IO</span></a>
+               <a href="" class="logo__link">
+                  <div class="footer__logo-img"></div>
+                  <!-- <img src="build/img/icon.png" alt="" class="logo__img"> -->
+                  Fork<span class="logo__link--selected">IO</span></a>
             </div>
             <p class="footer-text">Lorem ipsum dolor sit amet sit amet, feugiat delicat liberavisse id cum no quo.</p>
          </div>
@@ -414,12 +427,12 @@
    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
    <script>
       $(document).ready(function () {
-  $('.slider2').slick({
-    arrows: true,
-    prevArrow: '<img src="build/img/Arrow_L.png" alt="icon" class="prewArrow">',
-   nextArrow: '<img src="build/img/Arrow_R.png" alt="icon" class="nextArrow">'
-  });
-});
+         $('.slider2').slick({
+            arrows: true,
+            prevArrow: '<img src="build/img/Arrow_L.png" alt="icon" class="prewArrow">',
+            nextArrow: '<img src="build/img/Arrow_R.png" alt="icon" class="nextArrow">'
+         });
+      });
    </script>
 
 </body>
